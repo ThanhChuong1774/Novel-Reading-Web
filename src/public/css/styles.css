@@ -1,0 +1,375 @@
+.page-content {
+    position: relative;
+}
+
+.user-page {
+    position: relative
+}
+
+.user-page .postname {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 20px
+}
+
+.user-page .postname:after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #ee2c74;
+    margin-top: 5px
+}
+
+.user-page .posttitle {
+    font-weight: 500;
+    border-left: 3px solid #ee2c74;
+    padding-left: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 20px;
+    min-height: 27px;
+}
+
+.user-page .account-info {
+    position: relative;
+    margin-bottom: 30px
+}
+
+.account-info .info-detail .group {
+    margin-bottom: 10px
+}
+
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em
+}
+
+.account-info .info-detail .group .label {
+    float: left;
+    width: 100px;
+    color: #000;
+    font-size: 100%;
+    text-align: left;
+    font-weight: 400
+}
+
+.account-info .info-detail .group .detail {
+    display: table-cell;
+    font-weight: 500
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #5e5873;
+}
+
+.my-submit-button {
+    margin-top: 15px;
+    background-color: #d3d3d3;
+    border-color: a6b1a7;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.my-button {
+    background-color: #d3d3d3;
+    border-color: a6b1a7;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dt-btn {
+    float: left;
+}
+
+.create-user-container {
+    padding: 15px;
+    text-align: center;
+}
+
+.create-user-container label {
+    display: block;
+}
+
+.create-user-container .my-submit-button {
+    margin-top: 15px;
+    background-color: #d3d3d3;
+    border-color: a6b1a7;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.update-user-container {
+    padding: 15px;
+    text-align: center;
+}
+
+.update-user-container label {
+    display: block;
+}
+
+.update-user-container .my-submit-button {
+    margin-top: 15px;
+    background-color: #d3d3d3;
+    border-color: a6b1a7;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.create-book-container {
+    padding: 15px;
+    text-align: center;
+}
+
+.create-book-container label {
+    display: block;
+}
+
+.create-book-container .my-submit-button {
+    margin-top: 15px;
+    background-color: #d3d3d3;
+    border-color: a6b1a7;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none
+}
+
+.align-items-center {
+    -webkit-box-align: center !important;
+    -webkit-align-items: center !important;
+    -moz-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important
+}
+
+.media-body {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.book-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    /* justify-content: space-between; */
+}
+
+.ct-bl {
+    margin-left: 20px;
+}
+
+/* .book-list img {
+    margin-right: 20px;
+} */
+
+.shadow {
+    -webkit-box-shadow: 2px 3px 2px 0 rgba(0, 0, 0, .15) !important;
+    -moz-box-shadow: 2px 3px 2px 0 rgba(0, 0, 0, .15) !important;
+    box-shadow: 2px 3px 2px 0 rgba(0, 0, 0, .15) !important
+}
+
+.fz-body {
+    font-size: .9375rem
+}
+
+.text-muted {
+    color: #6c757d !important
+}
+
+.text-overflow-1-lines {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis
+}
+
+.tab-content>.tab-pane {
+    display: none
+}
+
+.tab-content>.active {
+    display: block
+}
+
+.fade {
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    -moz-transition: opacity .15s linear;
+    transition: opacity .15s linear
+}
+
+.upload-file-container {
+    padding: 15px;
+}
+
+.upload-file-container label {
+    display: block;
+}
+
+.icon-bell {
+    content: "\EA10"
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+.form-control {
+    padding: .438rem 1rem;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d8d6de;
+    border-radius: .357rem;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.d-block {
+    display: block;
+}
+
+.card {
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(34, 41, 47, .125);
+    border-radius: .428rem;
+    box-sizing: border-box;
+    height: 80%;
+}
+
+body {
+    font-family: Lato, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.45;
+    color: #6e6b7b;
+}
+
+.custom-select {
+    display: inline-block;
+    width: 100%;
+    height: 2.714rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.45;
+    color: #6e6b7b;
+    vertical-align: middle;
+    appearance: none;
+    margin-left: 3px;
+}
+
+select {
+    word-wrap: normal;
+    text-transform: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.btn {
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .786rem 1.5rem;
+    border-radius: .358rem;
+}
+
+.btn-block {
+    margin-top: 40px;
+    display: block;
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: #7367f0;
+    border-color: #7367f0;
+}
+
+.icon-btn {
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    box-shadow: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.icon-btn:hover,
+.icon-btn:active {
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
